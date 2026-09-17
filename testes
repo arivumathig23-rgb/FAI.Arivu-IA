@@ -1,0 +1,15 @@
+TEST CASE 1 – Normal Input
+Subjects: 3
+Expected: Subjects sorted by priority.
+
+TEST CASE 2 – Deadline Today
+Expected: Program should not give division-by-zero error.
+
+TEST CASE 3 – Deadline Passed
+Expected: days_left should be treated as 1.
+
+TEST CASE 4 – One Subject
+Expected: Program should generate a one-subject timetable.
+
+TEST CASE 5 – Limited Study Hours
+Expected: Timetable should use the available daily hours correctly.
