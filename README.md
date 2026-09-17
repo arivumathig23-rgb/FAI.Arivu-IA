@@ -307,9 +307,9 @@ Through this project, the following concepts are demonstrated:
 
 ## 👨‍💻 Author
 
-**Your Name**
+Arivumathi G
 
-GitHub: **Your GitHub Username**
+GitHub: Artificial Intelligence & Machine Learning
 
 ---
 
