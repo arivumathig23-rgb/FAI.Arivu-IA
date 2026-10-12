@@ -1,0 +1,26 @@
+digraph Ontology {
+  rankdir=LR; node [shape=box, style=rounded];
+  "Mathematics" -> "Algebra" [label="hasUnit"];
+  "Algebra" -> "Equations" [label="hasTopic"];
+  "Algebra" -> "Polynomials" [label="hasTopic"];
+  "Equations" -> "Polynomials" [style=dashed, color=red, label="prerequisiteOf"];
+  "Mathematics" -> "Calculus" [label="hasUnit"];
+  "Calculus" -> "Limits" [label="hasTopic"];
+  "Polynomials" -> "Limits" [style=dashed, color=red, label="prerequisiteOf"];
+  "Calculus" -> "Derivatives" [label="hasTopic"];
+  "Limits" -> "Derivatives" [style=dashed, color=red, label="prerequisiteOf"];
+  "Python" -> "Basics" [label="hasUnit"];
+  "Basics" -> "Syntax" [label="hasTopic"];
+  "Basics" -> "ControlFlow" [label="hasTopic"];
+  "Syntax" -> "ControlFlow" [style=dashed, color=red, label="prerequisiteOf"];
+  "Python" -> "Advanced" [label="hasUnit"];
+  "Advanced" -> "Functions" [label="hasTopic"];
+  "ControlFlow" -> "Functions" [style=dashed, color=red, label="prerequisiteOf"];
+  "Advanced" -> "OOP" [label="hasTopic"];
+  "Functions" -> "OOP" [style=dashed, color=red, label="prerequisiteOf"];
+  "English" -> "Language" [label="hasUnit"];
+  "Language" -> "Grammar" [label="hasTopic"];
+  "English" -> "Writing" [label="hasUnit"];
+  "Writing" -> "Essay" [label="hasTopic"];
+  "Grammar" -> "Essay" [style=dashed, color=red, label="prerequisiteOf"];
+}
