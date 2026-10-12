@@ -1,2 +1,8 @@
-# No external dependencies required
-# Python 3.10 or later recommended
+# AI-Based Study Planner (IA1 + IA2)
+# Python 3.8 or newer. The project uses ONLY the Python standard library:
+#   math, time, datetime, collections, dataclasses, unittest
+# No packages need to be installed with pip.
+#
+# Optional (only to draw the ontology diagram, not needed to run the project):
+#   Graphviz  ->  https://graphviz.org/download/
+#   then run:  dot -Tpng docs/ontology.dot -o docs/ontology.png
